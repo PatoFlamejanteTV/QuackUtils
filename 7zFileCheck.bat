@@ -1,7 +1,7 @@
 @echo off
 setlocal
 set "outputFile=7z_check_results.txt"
-set "dirPath=C:\Users\mcmco\Downloads\Compressed\FNF-JS-Engine\mods"  :: Defina o caminho do diretório que deseja verificar
+set "dirPath=C:\Users\mcmco\Downloads\Compressed\FNF-JS-Engine\mods\bigmod"  :: Defina o caminho do diretório que deseja verificar
 
 :: Limpa o arquivo de saída, se já existir
 if exist "%outputFile%" del "%outputFile%"
